@@ -2,6 +2,8 @@
 // This file in the main entry point for defining grunt tasks and using grunt plugins.
 // Click here to learn more. http://go.microsoft.com/fwlink/?LinkID=513275&clcid=0x409
 
+const sass = require('node-sass');
+
 module.exports = function (grunt) {
 
 	var scriptsPath = "Scripts";
@@ -105,7 +107,7 @@ module.exports = function (grunt) {
 
 		sass: {
 			options: {
-
+				implementation: sass
 			},
 			main: {
 				files: [{
