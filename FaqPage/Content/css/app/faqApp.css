@@ -242,7 +242,8 @@ html * {
   padding: 7px; }
 
 .btn-action button.btn-block {
-  white-space: inherit; }
+  white-space: inherit;
+  position: initial; }
 
 .faq-start-title {
   width: 32%; }

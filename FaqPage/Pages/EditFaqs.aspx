@@ -38,10 +38,6 @@
 				<ng-view></ng-view>
 			</ng-form>
 		</div>
-		<div class="footer">
-			<div id="faq-contact-dev" class="faq-footer center-block">{{Resources.NeedDev}} <a href ng-click="go('/ContactDev')">{{Resources.Contact}}</a> {{Resources.MeDirectly}}</div>
-			<div id="faq-review" class="faq-footer center-block">{{Resources.AppUseful}} <a href data-ng-click="navigateToReview()">{{Resources.Review}}</a> {{Resources.It}}</div>
-		</div>
 	</div>
 
 	<!-- Trick to make Rich Text Editor working -->
