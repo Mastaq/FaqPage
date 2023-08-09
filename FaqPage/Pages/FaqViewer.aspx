@@ -16,7 +16,7 @@
 	<script type="text/javascript" src="Scripts/build/build_config.js"></script>
 	<script type="text/javascript" src="Scripts/init.js?v=3"></script>
 
-	<link rel="Stylesheet" type="text/css" href="Content/css/faq.app.css?v=2" />
+	<link rel="Stylesheet" type="text/css" href="Content/css/faq.app.css?v=3" />
 
 	<script type="text/javascript">
 		jQuery(document).on("onAppLoaded", function () {
